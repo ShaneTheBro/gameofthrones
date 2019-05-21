@@ -646,6 +646,7 @@ clip-path: circle(8rem at 50% 40%);
 	}
 	.profilepic{
 		left: 0;
+		max-width: 25rem;
 	}
 	.speech-bubble{
 		width: 	26rem;
