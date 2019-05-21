@@ -577,16 +577,16 @@ clip-path: circle(8rem at 50% 40%);
 	html{
 		font-size: 70% !important;
 	}
-	.section2-imgs .img{
-		max-width: 37rem;
-		height: auto;
-		}
 	.section-3{
 		height: 60rem;
 	}
 	.section2-imgs .img{
 		max-width: 37rem;
 		height: auto;
+			transform: unset;
+	transition: .2s ease;
+	border-spacing: unset;
+	z-index: unset;
 	}
 	.section2-imgs{
 		width: 100%;
@@ -599,6 +599,8 @@ clip-path: circle(8rem at 50% 40%);
 	.card-side{
 		width: 	23rem;
 		height: 35rem;
+			transform: unset;
+	transition: .69s ease;
 	}
 	.speech-bubble{
 		width: 30rem;
@@ -636,6 +638,15 @@ clip-path: circle(8rem at 50% 40%);
 }
 
 .card:hover .card-side-back{
+	transform: unset;
+	transition: .69s ease; 	
+}
+	.card .card-side-front{
+	transform: unset;
+	transition: .69s ease; 		
+}
+
+.card .card-side-back{
 	transform: unset;
 	transition: .69s ease; 	
 }
