@@ -606,8 +606,13 @@ clip-path: circle(8rem at 50% 40%);
 	.card-text{
 		font-size: 1.5rem;	
 	}
-	html:hover{
-		transform: unset;
+	.logo img{
+		top: 1rem;
+		left: 1rem;
+	}
+	.navigation_button{
+		top: 1rem;
+		right: 1rem;
 	}
 
 }
