@@ -618,7 +618,27 @@ clip-path: circle(8rem at 50% 40%);
 		top: 1.5rem;
 		right: 1.5rem;
 	}
+	.img:hover{
+	transform: unset;
+	transition: .2s ease;
+	border-spacing: unset;
+	z-index: unset;
+}
 
+	.section2-imgs:hover .img:not(:hover){
+	transform: unset;
+	transition: .2s ease;
+	opacity: unset;
+}
+	.card:hover .card-side-front{
+	transform: unset;
+	transition: .69s ease; 		
+}
+
+.card:hover .card-side-back{
+	transform: unset;
+	transition: .69s ease; 	
+}
 }
 
 @media only screen and (max-width: 850px){
