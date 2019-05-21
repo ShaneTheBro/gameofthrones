@@ -654,6 +654,9 @@ clip-path: circle(8rem at 50% 40%);
 	.section2-imgs{
 		width: 100%;
 	}
+		.speech-bubble{
+		width: 20rem;
+	}
 }
 @media only screen and (max-height: 350px){
 	.header{
