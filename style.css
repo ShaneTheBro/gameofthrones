@@ -661,6 +661,24 @@ clip-path: circle(8rem at 50% 40%);
 		.speech-bubble{
 		width: 20rem;
 	}
+	.review-1 .profilepic{ 
+	 	-webkit-clip-path: circle(7rem at 50% 45%);
+clip-path: circle(7rem at 50% 45%); 
+}
+.review-2 .profilepic{ 
+/*	top: 25%;*/
+	 	-webkit-clip-path: circle(7rem at 50% 22%);
+clip-path: circle(7rem at 50% 22%); 
+}
+.review-3 .profilepic{
+/*	top: 50%;*/
+	 	-webkit-clip-path: circle(7rem at 50% 50%);
+clip-path: circle(7rem at 50% 50%); 
+}
+.review-4 .profilepic{ 
+	 	-webkit-clip-path: circle(7rem at 50% 40%);
+clip-path: circle(7rem at 50% 40%); 
+}
 }
 @media only screen and (max-height: 350px){
 	.header{
