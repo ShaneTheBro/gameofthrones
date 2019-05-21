@@ -614,6 +614,10 @@ clip-path: circle(8rem at 50% 40%);
 		top: 1rem;
 		right: 1rem;
 	}
+	.navigation_background{
+		top: 1.5rem;
+		right: 1.5rem;
+	}
 
 }
 
