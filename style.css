@@ -720,16 +720,16 @@ clip-path: circle(7rem at 50% 50%);
 clip-path: circle(7rem at 50% 40%); 
 }
 .pop-up{
-	width: 20rem;
-	height: 20rem;
+width: 25rem;
+	height: 25rem;
 }
 .pop-up-primary{
-	width: 20rem;
-	height: 20rem;
+width: 25rem;
+	height: 25rem;
 }
 .pop-up-content{
-	width: 20rem;
-	height: 20rem;
+	width: 25rem;
+	height: 25rem;
 }
 }
 @media only screen and (max-height: 350px){
