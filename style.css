@@ -601,10 +601,13 @@ clip-path: circle(8rem at 50% 40%);
 		height: 35rem;
 	}
 	.speech-bubble{
-		width: 25rem;
+		width: 30rem;
 	}
 	.card-text{
 		font-size: 1.5rem;	
+	}
+	html:hover{
+		transform: unset;
 	}
 
 }
